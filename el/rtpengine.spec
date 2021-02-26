@@ -1,5 +1,5 @@
 Name:		ngcp-rtpengine
-Version:	9.2.1.5+0~mr9.2.1.5
+Version:	9.2.1.6+0~mr9.2.1.6
 Release:	1%{?dist}
 Summary:	The Sipwise NGCP rtpengine
 
@@ -15,7 +15,7 @@ Conflicts:	%{name}-kernel < %{version}-%{release}
 BuildRequires:	gcc make pkgconfig redhat-rpm-config
 BuildRequires:	glib2-devel libcurl-devel openssl-devel pcre-devel
 BuildRequires:	xmlrpc-c-devel zlib-devel hiredis-devel
-BuildRequires:	libpcap-devel libevent-devel json-glib-devel 
+BuildRequires:	libpcap-devel libevent-devel json-glib-devel
 BuildRequires:	gperf perl-IPC-Cmd
 BuildRequires:  pkgconfig(spandsp)
 Requires(pre):	shadow-utils
@@ -279,10 +279,10 @@ true
   - update to ngcp-rtpengine version 6.4.0.0
   - add packet recording
 * Thu Nov 24 2016 Marcel Weinberg <marcel@ng-voice.com>
-  - Updated to ngcp-rtpengine version 4.5.0 and CentOS 7.2 
+  - Updated to ngcp-rtpengine version 4.5.0 and CentOS 7.2
   - created a new variable "binname" to use rtpengine as name for the binaries
     (still using ngcp-rtpenginge as name of the package and daemon - aligned to the .deb packages)
-  - fixed dependencies 
+  - fixed dependencies
 * Mon Nov 11 2013 Peter Dunkley <peter.dunkley@crocodilertc.net>
   - Updated version to 2.3.2
   - Set license to GPLv3

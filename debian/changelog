@@ -1,3 +1,10 @@
+ngcp-rtpengine (9.2.1.6+0~mr9.2.1.6) unstable; urgency=medium
+
+  [ Robert Mordec ]
+  * [7626f5e] Update for kernels >= 5.8.0
+
+ -- Slican Robert Mordec <r.mordec@slican.pl>  Fri, 26 Feb 2021 15:30:00 +0100
+
 ngcp-rtpengine (9.2.1.5+0~mr9.2.1.5) unstable; urgency=medium
 
   [ Richard Fuchs ]
